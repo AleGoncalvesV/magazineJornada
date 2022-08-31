@@ -1,12 +1,10 @@
-import { Button } from "@mui/material";
+import PrimarySearchAppBar from "../../components/PrimaryNavbar";
 
 function Home() {
   return (
     <>
-      <div>Home</div>
-      <Button color="success" style={{ backgroundColor: "black" }}>
-        Click
-      </Button>
+    <PrimarySearchAppBar />
+    <h1>Home</h1>
     </>
   );
 }

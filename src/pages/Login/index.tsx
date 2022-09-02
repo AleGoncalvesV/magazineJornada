@@ -1,5 +1,6 @@
 import { Box, Button, Link, TextField } from "@mui/material";
 
+
 function Login() {
   return (
     <Box
@@ -30,7 +31,9 @@ function Login() {
           justifyContent="space-around"
           gap={1}
         >
+
           <Box alignSelf={"center"}>imagem</Box>
+
           <Box
             width="70%"
             display="flex"
